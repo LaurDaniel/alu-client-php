@@ -89,6 +89,7 @@ final class RequestBuilder
 
         $requestArray['BACK_REF'] = $request->getOrder()->getBackRef();
         $requestArray['ALIAS'] = $request->getOrder()->getAlias();
+         $requestArray['HOSTED_PAGE'] = 1;
 
         if ($request->getUser() !== null) {
             $requestArray['CLIENT_IP'] = $request->getUser()->getUserIPAddress();
