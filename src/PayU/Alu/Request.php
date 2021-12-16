@@ -318,7 +318,7 @@ class Request
 
         $this->internalArray['BACK_REF'] = $this->order->getBackRef();
         $this->internalArray['ALIAS'] = $this->order->getAlias();
-
+        $this->internalArray['HOSTED_PAGE'] = 1;
         if (!empty($this->user)) {
             $this->internalArray['CLIENT_IP'] = $this->user->getUserIPAddress();
             $this->internalArray['CLIENT_TIME'] = $this->user->getClientTime();
