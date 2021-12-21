@@ -31,7 +31,7 @@ final class AluV3 implements AuthorizationPaymentsApiClient
         'ro' => 'https://secure.payu.ro',
         'ru' => 'http://secure.payu.ru',
         'tr' => 'https://secure.payu.com.tr',
-        'sandbox' => 'https://sandbox.payu.com.ro',
+        'sandbox' => 'https://sandbox.payu.ro',
     ];
 
     /**
